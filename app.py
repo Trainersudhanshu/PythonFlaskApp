@@ -8,10 +8,9 @@ def create_app():
 
     @app.route('/')
     def home():
-        return 'GFG 27th jan pipeline run'
+        return 'Wow CI-CD Pipeline is been developed..'
 
     return app
-
 if __name__ == '__main__':
     app = create_app()
     app.run(host='0.0.0.0', port=80, debug=True)
